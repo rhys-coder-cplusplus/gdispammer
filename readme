@@ -1,0 +1,66 @@
+gdispammer README
+A lightweight Windows visual chaos utility that rapidly spawns GDI effects to create glitch‑style screen effects. Designed as a compact experiment in Win32 rendering and window management.
+
+Overview
+gdispammer is a small Windows executable that opens multiple GDI windows in rapid succession. Each window renders simple shapes or fills, producing a chaotic, demoscene‑style visual effect. This project serves as a learning tool for:
+Win32 API fundamentals
+GDI rendering
+Window creation and message loops
+Performance behaviour under rapid window spawning
+
+Features
+Rapid creation of multiple GDI effects
+Lightweight single‑file executable
+Minimal dependencies (pure Win32)
+Small binary size
+Demonstrates basic GDI drawing operations
+Suitable for experimentation and educational purposes
+
+Installation
+Download the latest release from the Releases page:
+gdispammer.exe
+
+No installation is required. The executable runs standalone on Windows.
+
+Usage
+Download gdispammer.exe.
+
+Run it on a Windows machine (preferably a VM)
+An pop-up will appear. If you click yes, it will run. If you click no, it will simply exit.
+It will start to spam GDI effects and bytebeat will play. I recommend you turn down your volume :)
+To stop the program, close the terminal or press the escape key to exit instantly.
+
+Build Instructions
+To build from source:
+Requirements
+Windows environment
+C++ compiler (MSVC, MinGW, or Clang)
+Win32 development libraries (included with most toolchains)
+
+Steps
+Clone the repository:
+git clone https://github.com/rhys-coder-cplusplus/gdispammer.git
+Open the project in your preferred C++ environment.
+Compile the source file(s) using a Win32 subsystem target.
+
+Safety Notes
+This program rapidly spawns effects and may temporarily overwhelm the desktop environment.
+It is intended for experimentation and educational use.
+Avoid running it during important tasks or on systems with unsaved work.
+
+Release Information
+The latest stable release is available on GitHub under the Stable tag. Each release includes:
+Precompiled executable
+Auto‑generated source archives (.zip and .tar.gz)
+Signed commit for authenticity
+
+Credits
+
+Created by Rhys.
+
+License
+
+This project is licensed under the MIT License. :)
+
+Final note:
+Cya! If you want chaos then run it on a real machine >:)
